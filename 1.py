@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-#Fiz esse script porque um amigo pediu :P
 import webbrowser,os, sys, time,platform, subprocess,smtplib, email.message, imaplib, email, ssl
 clean = ("cls" if os.name == "nt" else "clear")
 def clear():
@@ -43,7 +41,7 @@ main = f'''
 {C}[{G}4{C}] Banir Numero
 {C}[{G}5{C}] Derrubar Blindagem
 {C}[{G}6{C}] Blindar Número
-{C}[{G}7{C}] {R}???{C}
+
 ==================
 {C}[{G}8{C}] Liberar Permissão de Apps menos seguros
 {C}[{G}9{C}] Grupo do WhatsApp
