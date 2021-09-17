@@ -91,7 +91,6 @@ def init():
 	   		print(f'{C}[{G}i{C}] Concluído! Espere a resposta do suporte.')
 	   			##############################
 	
-		print(f"{error} Verifique se a opção de 'Apps menos seguros' foi ativada ou se você inseriu o email/senha corretamente.\n{warning}: "+str(erro));time.sleep(5)
 Sair = False
 while(Sair == False):
 		try:
