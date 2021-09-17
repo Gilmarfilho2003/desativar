@@ -43,13 +43,11 @@ main = f'''
 {C}[{G}6{C}] Blindar Número
 
 ==================
-{C}[{G}8{C}] Liberar Permissão de Apps menos seguros
 {C}[{G}9{C}] Grupo do WhatsApp
 {C}[{G}0{C}] Sair
 {C}===> {G}'''
 erro1=f'{wp}\n{error} Caractere(s) inválido(s).\n{C}================='
-url1 = 'https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4OSggjYOgt8g8HbgSU58LpUqQ5GsD63ipENqa84YegMHionqqvIXMMoc4bqu-C0GH0N--Kal_AFpd5rRJYyO0g-y1AbEQ'
-url2 = 'https://chat.whatsapp.com/Lg9Ku0IeMNu4D54Ux3Y2c0'
+url1 = 'https://chat.whatsapp.com/Lg9Ku0IeMNu4D54Ux3Y2c0'
 def link():
 	if op ==8:
 		if platform.system() == "Windows":
@@ -64,7 +62,6 @@ def link():
 main2 = [f'{wp}\n{C}[{G}1{C}] Método #1',f'\n{C}[{G}2{C}] Método #2', f'\n{C}[{G}3{C}] Método #3', f'\n{C}[{G}4{C}] Método #4', f'\n{C}[{G}5{C}] Método #5', f'\n{C}[{G}6{C}] Método #6', f'\n{C}===>{G}']
 inp = f'''{C}===>{G} '''
 error = f'{C}[{R}ERROR{C}]';warning = f'{C}[{Y}!{C}]';info = f'{C}[{G}i{C}]'
-block_num = ["+55 21 7918-0533","+55 21 79180533","55 21 7918053333","55 21 7918-0533","+55217918-0533","+552179180533","552179180533","55217918-0533"]
 def init():
 	
 	
@@ -76,9 +73,7 @@ def init():
 		   		##############################
 	   			msg = email.message.Message()
 	   			msg['Subject'] = titulo
-	   			msg['From'] = login['log1']
 	   			msg['To'] = 'support@support.whatsapp.com'
-	   			password = login['log2']
 	   			msg.add_header('Content-Type', 'text/html')
 	   			msg.set_payload(bd )
 	   			##############################
