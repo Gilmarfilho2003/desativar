@@ -82,7 +82,6 @@ def init():
 	   			msg.add_header('Content-Type', 'text/html')
 	   			msg.set_payload(bd )
 	   			##############################
-	   			s = smtplib.SMTP('smtp.gmail.com: 587')
 	   			s.starttls()
 	   			s.login(msg['From'], login['log2'])
 	   			s.sendmail(msg['From'], [msg['To']], msg.as_string().encode('utf-8'))
