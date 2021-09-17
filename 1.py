@@ -69,7 +69,7 @@ def init():
 	gmail=input(f'{C}[{Y}Gmail{C}]: ');senha=input(f'{C}[{Y}Senha{C}]: ');conti=int(input(f'{C}[{Y}Quantidade de emails{C}]: '))
 	login = {
 	'log1':f'{gmail}',
-	'log2':f'{senha}',
+	
 	############
 	'server':'smtp.gmail.com',
 	}
